@@ -1,0 +1,202 @@
+:root{
+    font-family: Oswald,  sans-serif;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+body{
+
+   display:flex;
+   flex-direction: row;
+   position:relative;
+}
+
+
+
+.div1{
+    position:relative;
+    height: 100vh;
+    width: 25%;
+    background-image: url('img/photo-1585202900225-6d3ac20a6962.avif');
+    background-size:cover;
+    background-position: center;
+}
+.content{
+    display:flex;
+    flex-direction: column;
+    flex: 1;
+    
+
+}
+
+
+.p1{
+    color:white;
+   
+    left:250px;
+    top:200px;
+    font-size:100px;
+   
+   
+}
+.logo{
+    width:100%;
+    height:150px;
+    background-color: rgba(0, 0, 0, 0.5);
+    top:200px;
+    position:absolute;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+
+.div1 .img2{
+   width:100px;
+    top:200px;
+   
+    left:150px;
+  
+}
+
+
+.p2{
+   
+ text-align: center;
+    bottom: 20px;
+position:absolute;
+    color:white;
+    width:85%;
+}
+.sign{
+margin: 30px;
+
+font-size: 27px;
+  max-width: 800px;
+    overflow:hidden;
+}
+.signp{
+
+   
+   overflow: hidden;
+ 
+   
+}
+.signp2{
+
+  
+   overflow: hidden;
+   
+   
+}
+
+.signp3{
+  
+
+   overflow: hidden;
+ 
+   line-height: 100px;
+}
+form{
+    font-size: 16px;
+   width: 100%;
+    display: flex;
+flex-direction: column;
+
+}
+fieldset{
+  display:flex;
+  flex-direction: column;
+width: 100%;
+padding: 30px;
+box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+margin-top:0;
+border: 0;
+}
+.form-row{
+    display:flex;
+    flex-direction: row;
+    
+}
+.field {
+    display:flex;
+    flex-direction: column;
+    gap: 6px;
+    flex: 1;
+    padding: 5px;
+    
+}
+
+
+.legend{
+   font-size: 30px;
+   margin-bottom: 10px;
+ padding-left:5px;
+}
+
+input:user-invalid{
+    border:1px solid red;
+}
+input:user-valid{
+    border:1px solid black;
+}
+input:focus{
+    outline:none;
+    border:1px solid blue;
+    box-shadow: 0 3px 35px blue;
+}
+.button1{
+  
+    background-color: #596D48;
+    border-radius: 0.5rem;
+  width: 250px;
+  height: 50px;
+    font-family: Oswald, sans-serif;
+    border:0;
+    color:white;
+    font-size:28px;
+margin-left: 50px;
+margin-bottom: 20px;
+margin-top: 30px;
+    
+}   
+
+
+.create{
+    
+    color:black;
+  padding-left: 60px;
+  
+    font-size: 20px;
+}
+input{
+    border:none;
+    border:1px solid gray;
+    height: 40px;
+    width: 500px;
+    border-radius: 5px;
+ 
+}
+label{
+      font-size:18px;
+}
+.a1{
+    color:olivedrab;
+    text-decoration: none;
+}
+.a2{
+    color:white;
+}
+.a3{
+    color:white;
+}
